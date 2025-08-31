@@ -4,11 +4,9 @@
 int main() {
     char x;
 
-    // Input a character
     printf("Enter a character: ");
     scanf("%c", &x);
 
-    // Check the type of character
     if (x >= 'A' && x <= 'Z') {
         printf("'%c' is an Uppercase Alphabet.\n", x);
     }
